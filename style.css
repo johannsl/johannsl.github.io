@@ -1,5 +1,74 @@
+/* 
+Color palette
+    #99B898
+    #FECEAB
+    #FF847C
+    #E84A5F
+*/
 
-h1 {
+body {
+    font-family: "B612-Regular";
+    background-color: #99B898;
+}
+
+div#header {
+    height: 6vh;
     text-align: center;
+}
+
+div#main {
+    height: 80vh;
+    margin: 0vw 15vw 0vw 15vw;
+    background-color: #FECEAB;
+}
+
+div#footer {
+    height: 6vh;
+}
+
+@font-face {
+    font-family: "B612-Regular";
+    src: url("./B612/B612-Regular.ttf");
+}
+
+@font-face {
+    font-family: "B612-Bold";
+    src: url("./B612/B612-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "B612-Italic";
+    src: url("./B612/B612-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "B612-BoldItalic";
+    src: url("./B612/B612-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+b, strong {
+    font-family: "B612-Bold";
+}
+
+i, em {
+    font-family: "B612-Italic";
+}
+
+div#colorbox1 {
+    height: 100px;
+    width: 100px;
+    background-color: #FF847C;
+    margin: 100px;
+}
+
+div#colorbox2 {
+    height: 100px;
+    width: 100px;
+    background-color: #E84A5F;
+    margin: 100px;
 }
 
