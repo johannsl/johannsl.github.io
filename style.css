@@ -4,26 +4,42 @@ Color palette
     #FECEAB
     #FF847C
     #E84A5F
+
+Greyscale palette
+    #EEEEEE
+    #CCCCCC
+    #999999
+    #666666
+    #333333
+    #000000
+
+Light gray palette
+    #DDE2E3
+    #D1D9DC
+    #C4D0D9
+    #9D9C9A
+    #72747A
 */
 
 body {
-    font-family: "B612-Regular";
-    background-color: #99B898;
+    font-family: "B612-Regular" !important;
+    background-color: #C4D0D9 !important;
 }
 
 div#header {
-    height: 6vh;
+    height: 50px;
     text-align: center;
+    border-bottom: 1px solid;
 }
 
 div#main {
-    height: 80vh;
     margin: 0vw 15vw 0vw 15vw;
-    background-color: #FECEAB;
+    background-color: #DDE2E3;
 }
 
 div#footer {
-    height: 6vh;
+    height: 40px;
+    border-top: 1px solid;
 }
 
 @font-face {
@@ -58,17 +74,17 @@ i, em {
     font-family: "B612-Italic";
 }
 
-div#colorbox1 {
-    height: 100px;
-    width: 100px;
-    background-color: #FF847C;
-    margin: 100px;
+h1, h2 {
+    margin: 0;
 }
 
-div#colorbox2 {
-    height: 100px;
-    width: 100px;
-    background-color: #E84A5F;
-    margin: 100px;
+.kort {
+    background-color: #DDE2E3 !important;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card-title {
+    font-family: "B612-Bold";
 }
 
