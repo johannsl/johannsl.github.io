@@ -1,0 +1,162 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/services" exact element={<Services />} />
+          <Route path="/contact" exact element={<Contact />} />
+        </Routes>
+
+
+        {Array.from({ length: 100 }).map((_, index) => (
+          <div>hello</div>
+        ))}
+
+.top {
+  transform: translateY(-100%);
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* display: flex; */
+
+}
+
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+
+    /* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card:hover {
+  background-color: #00adb5;
+}
+
+  transition: background-color 0.8s ease;
+  border-radius: 3px;
+
+
+
+  const location = useLocation();
+  const imageName = location.pathname.split("/")[2];
+  const imageIndex = images
+    .map((image) => image.title)
+    .includes(fromUrlToTitle(imageName))
+    ? images.find((image) => image.title === imageName).id
+    : 0;
+
+  console.log(imageIndex);
+  const [currentIndex, setCurrentIndex] = useState(imageIndex);
+  console.log(imageIndex);
+
+
+
+      <div className="slideshow-container page">
+      {/* <button className="arrow prev" onClick={prevSlide}>
+        &#10094;
+      </button> */}
+      <p className="slideshow-top-left">1</p>
+      <p className="slideshow-top-right">2</p>
+      <img
+        src={images[currentIndex].imageUrl}
+        alt={`Slide ${currentIndex + 1}`}
+      />
+      <p className="slideshow-bottom-left">3</p>
+      <p className="slideshow-bottom-right">4</p>
+
+      {/* <button className="arrow next" onClick={nextSlide}>
+        &#10095;
+      </button> */}
+    </div>
+
+
+
+    /* .slideshow-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+} */
+
+/* .slideshow-top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} */
+
+ */
+
+
+     {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }

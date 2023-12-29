@@ -1,0 +1,10 @@
+/* Home.css */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+/* Add any additional styles for the Home component here */
