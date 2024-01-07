@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  HashRouter,
+} from "react-router-dom";
 
 import "./App.css";
 import Navbar from "./navbar/Navbar";
@@ -20,7 +25,7 @@ import ScrollToTop from "./functions/scrollToTop";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div>
         <ScrollToTop />
         <Navbar />
@@ -69,7 +74,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
