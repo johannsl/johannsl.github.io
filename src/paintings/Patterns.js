@@ -1,13 +1,12 @@
 import React from "react";
 
-import "../Page.css";
 import CardGrid from "./CardGrid";
 import { patterns } from "../resources/patterns";
 import { paintingsSubMenu } from "../resources/text";
 
 function Patterns() {
   return (
-    <div className="page">
+    <div className="navbar-spacing-submenu">
       <CardGrid images={patterns} type={paintingsSubMenu[1]} />
     </div>
   );

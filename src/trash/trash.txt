@@ -160,3 +160,28 @@ img {
       "type": "image/png",
       "sizes": "512x512"
     }
+
+/* Home.css */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+/* Add any additional styles for the Home component here */
+
+
+          style={
+            index === homeText.length - 1
+              ? { fontStyle: "italic"}
+              : {}
+          }
+
+          /* 
+.home h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+} */

@@ -1,0 +1,72 @@
+@media (min-width: 768px) {
+}
+
+@media (max-width: 768px) {
+}
+
+.footer {
+  background-color: #222831;
+  border: 1px solid #222831;
+  color: #eeeeee;
+  font-size: 0.7rem;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-text {
+  /* margin-right: 30px; */
+  /* text-align: left; */
+}
+
+.footer-icons {
+  margin-top: 2px;
+  /* align-items: right; */
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 6px 9px 9px 6px;
+  margin: 4px;
+  font-size: 14px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+a span {
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-paint-brush {
+  background: #393e46;
+  color: white;
+}

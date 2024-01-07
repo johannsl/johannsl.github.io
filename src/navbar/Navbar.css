@@ -20,12 +20,12 @@
   display: flex;
   justify-content: space-evenly;
   background-color: #222831;
+  border: 1px solid #222831;
   position: fixed;
   height: 60px;
   top: 0;
   left: 0;
   right: 0;
-  border: 1px solid #222831;
 }
 
 .navbar ul {
@@ -82,4 +82,12 @@
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 400;
+}
+
+.navbar-spacing {
+  margin-top: 60px;
+}
+
+.navbar-spacing-submenu {
+  margin-top: 120px;
 }

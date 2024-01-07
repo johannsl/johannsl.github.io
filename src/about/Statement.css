@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+}
+
+@media (max-width: 768px) {
+}
+
+.statement {
+  margin-top: 140px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  /* border: 1px solid black; */
+}
+
+.statement h1 {
+  font-weight: 300;
+  color: #393e46;
+}
+
+.statement p {
+  font-weight: 400;
+  color: #222831;
+  line-height: 180%;
+  margin-bottom: 30px;
+}

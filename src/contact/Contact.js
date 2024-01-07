@@ -1,11 +1,29 @@
 import React from "react";
-// import "./Page.css"; // Import a common CSS file for page styling
+
+import "./Contact.css";
+import {
+  contactText,
+  contactTitle,
+  emailText,
+  emailTitle,
+  phoneNumberText,
+  phoneNumberTitle,
+} from "../resources/text";
 
 function Contact() {
   return (
-    <div className="page">
-      <h2>Welcome to the Home Page</h2>
-      <p>This is the home page content.</p>
+    <div className="contact navbar-spacing">
+      <h1>{contactTitle}</h1>
+      {contactText.map((item) => (
+        <p key={item}>{item}</p>
+      ))}
+      <br />
+      <p>
+        {phoneNumberTitle}: {phoneNumberText}
+      </p>
+      <p>
+        {emailTitle}: {emailText}
+      </p>
     </div>
   );
 }

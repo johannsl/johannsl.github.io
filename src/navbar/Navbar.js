@@ -12,18 +12,23 @@ function Navbar() {
   return (
     <div className="navbar">
       <ul>
-        {navbarItems.map((item) => (
-          <NavLink
-            onClick={() => setPage(item)}
-            to={item === "home" ? "/" : `/${item}`}
-            key={item}
-          >
-            {fromUrlToTitle(item)}
-          </NavLink>
-        ))}
+        {navbarItems.map((item) => {
+          let goto = item;
+          if (item === navbarItems[2]) goto = aboutSubMenu[0]; // about goes to statement
+
+          let to = item;
+          if (item === navbarItems[0]) to = "/"; // home goes to root
+          else if (item === navbarItems[2]) to = aboutSubMenu[0]; // about goes to statement
+
+          return (
+            <NavLink onClick={() => setPage(goto)} to={to} key={item}>
+              {fromUrlToTitle(item)}
+            </NavLink>
+          );
+        })}
       </ul>
 
-      {page === "paintings" && (
+      {paintingsSubMenu.includes(page) && (
         <ul className="submenu">
           {paintingsSubMenu.map((item) => (
             <NavLink to={`/${item}`} key={item}>
@@ -32,7 +37,7 @@ function Navbar() {
           ))}
         </ul>
       )}
-      {page === "about" && (
+      {aboutSubMenu.includes(page) && (
         <ul className="submenu">
           {aboutSubMenu.map((item) => (
             <NavLink to={`/${item}`} key={item}>

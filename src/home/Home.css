@@ -1,10 +1,51 @@
-/* Home.css */
-.home {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
-  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+@media (min-width: 768px) {
+  .home p {
+    font-size: 1rem;
+  }
+  .home-text {
+    max-width: 500px;
+  }
 }
 
-/* Add any additional styles for the Home component here */
+@media (max-width: 768px) {
+  .home p {
+    font-size: 0.6rem;
+  }
+  .home-text {
+    max-width: 300px;
+  }
+}
+
+.home {
+  color: #393e46;
+}
+
+.home h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 80px 0px 10px 0px;
+  /* border: 1px solid black; */
+}
+
+.home img {
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.home-text {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  /* border: 1px solid black; */
+}
+
+.home p {
+  color: #222831;
+  font-weight: 400;
+  line-height: 110%;
+}
