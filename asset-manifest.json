@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.042b3862.css",
-    "main.js": "/static/js/main.31277a3d.js",
+    "main.js": "/static/js/main.b2e1393b.js",
     "static/media/sobriety.jpeg": "/static/media/sobriety.923a606e9a4427b7e939.jpeg",
     "static/media/gyldent-landskap.jpeg": "/static/media/gyldent-landskap.c1dca875bb24fd96f68b.jpeg",
     "static/media/afternoon.jpeg": "/static/media/afternoon.984515aa05a77ba353bc.jpeg",
@@ -29,10 +29,10 @@
     "static/media/home-image.jpeg": "/static/media/home-image.25525f70aadadd2eb7ef.jpeg",
     "index.html": "/index.html",
     "main.042b3862.css.map": "/static/css/main.042b3862.css.map",
-    "main.31277a3d.js.map": "/static/js/main.31277a3d.js.map"
+    "main.b2e1393b.js.map": "/static/js/main.b2e1393b.js.map"
   },
   "entrypoints": [
     "static/css/main.042b3862.css",
-    "static/js/main.31277a3d.js"
+    "static/js/main.b2e1393b.js"
   ]
 }
