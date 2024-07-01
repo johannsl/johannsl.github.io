@@ -1,10 +1,6 @@
 export const navbarItems = ["home", "paintings", "about", "contact"];
-export const paintingsSubMenu = [
-  "paintings",
-  "patterns",
-  "smaller-works",
-  "linocuts",
-];
+export const paintingsSubMenu = ["paintings", "smaller-works"];
+// "patterns", "linocuts",
 export const aboutSubMenu = ["statement", "CV", "press"]; // "photos"
 
 export const homeTitle = "Astrid Slettevold's Art";

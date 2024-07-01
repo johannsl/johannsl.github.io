@@ -1,15 +1,15 @@
 import React from "react";
 
 import CardGrid from "./CardGrid";
-import { patterns } from "../resources/patterns";
 import { paintingsSubMenu } from "../resources/text";
+import { smallerWorks } from "../resources/smallerWorks";
 
-function Patterns() {
+function SmallerWorks() {
   return (
     <div className="navbar-spacing-submenu">
-      <CardGrid images={patterns} type={paintingsSubMenu[1]} />
+      <CardGrid images={smallerWorks} type={paintingsSubMenu[1]} />
     </div>
   );
 }
 
-export default Patterns;
+export default SmallerWorks;

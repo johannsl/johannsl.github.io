@@ -185,3 +185,14 @@ img {
   font-weight: 400;
   text-align: center;
 } */
+
+// import blaavinge from "./paintings/blaavinge.jpeg";
+
+// {
+//   id: 2,
+//   title: "Bluewing",
+//   date: "2023-04-25",
+//   size: "60x60",
+//   imageUrl: blaavinge,
+//   include: false,
+// },

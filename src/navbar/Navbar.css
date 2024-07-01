@@ -12,7 +12,7 @@
 @media (max-width: 768px) {
   .navbar a {
     padding: 11px;
-    border: white solid;
+    /* border: white solid; */
   }
 }
 

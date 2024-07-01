@@ -15,7 +15,7 @@ function CardGrid({ images, type }) {
           className="card"
           onClick={() => navigate(`/${type}/${lowerCaseAndDashes(card.title)}`)}
         >
-          <img src={card.imageUrl} loading="lazy" alt={card.title} />
+          <img src={card.imageUrlSmall} loading="lazy" alt={card.title} />
           <p className="card-title">{card.title}</p>
           <p className="card-desc">{card.size}</p>
         </div>
