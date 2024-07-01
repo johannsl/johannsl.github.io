@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import "../Page.css";
 import "./Slideshow.css";
 import { lowerCaseAndDashes } from "../functions/strings";
 
@@ -17,7 +16,7 @@ function Slideshow({ images, item, type }) {
   };
 
   return (
-    <div className="image-container page">
+    <div className="image-container">
       <button className="arrow prev" onClick={prevSlide}>
         &#10094;
       </button>

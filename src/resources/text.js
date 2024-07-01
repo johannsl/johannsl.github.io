@@ -5,7 +5,7 @@ export const paintingsSubMenu = [
   "smaller-works",
   "linocuts",
 ];
-export const aboutSubMenu = ["statement", "CV", "press", "photos"];
+export const aboutSubMenu = ["statement", "CV", "press"]; // "photos"
 
 export const homeTitle = "Astrid Slettevold's Art";
 export const homeText = [
@@ -14,7 +14,7 @@ export const homeText = [
   "I am facinated by music, literature, film, and the ordinary",
   "Patterns are more enjoyable when not obviously predetermined",
   "Often, I rebel against themes, techniques, and setups",
-  "Art is free :)",
+  "Artistry should be free 🙂",
 ];
 
 export const footerText = "Astrid Slettevold | ast-art.no";
