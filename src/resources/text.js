@@ -1,6 +1,10 @@
 export const navbarItems = ["home", "paintings", "about", "contact"];
-export const paintingsSubMenu = ["paintings", "smaller-works"];
-// "patterns", "linocuts",
+export const paintingsSubMenu = [
+  "paintings",
+  "linocuts",
+  "smaller-works",
+  "patterns",
+];
 export const aboutSubMenu = ["statement", "CV", "press"]; // "photos"
 
 export const homeTitle = "Astrid Slettevold's Art";
@@ -10,7 +14,7 @@ export const homeText = [
   "I am facinated by music, literature, film, and the ordinary",
   "Patterns are more enjoyable when not obviously predetermined",
   "Often, I rebel against themes, techniques, and setups",
-  "Artistry should be free 🙂",
+  "Art is freedom 🙂",
 ];
 
 export const footerText = "Astrid Slettevold | ast-art.no";
@@ -54,11 +58,12 @@ export const educationText = [
 ];
 export const artJobsTitle = "Art jobs";
 export const artJobsText = [
-  "Shop Assistant, Purchasing Manager, Head of Department, KEM 1981 - 1994",
   "Teacher in Design Subjects, Bredtvet Upper Secondary School, 1998 - 2008",
+  "Shop Assistant, Purchasing Manager, Head of Department, KEM 1981 - 1994",
 ];
 export const soloExhibitionsTitle = "Solo exhibitions";
 export const soloExhibitionsText = [
+  "Ski Kunstforening 2024",
   "Galleri Midtstuen, Rakkestad Kunstforening 2023",
   "Galleri Syningen, Ål 2023",
   "Galleri Gamle Eidsfos, 2022",
@@ -68,7 +73,7 @@ export const soloExhibitionsText = [
   "Rælingen Kunstforening, 2019",
   "Galleri Albin-Art, Oslo 2018",
   "Galleri ArtToBe, Tomter 2018",
-  "Galleri Magenta, Gml Fr stad 2018",
+  "Galleri Magenta, Gamle Fredrikstad 2018",
   "Galleri ØKS, Fredrikstad 2017",
   "Holmsbustuene, Holmsbu 2017",
   "Galleri Odonata, Fornebu 2016",
@@ -78,74 +83,81 @@ export const soloExhibitionsText = [
   "Galleri Clara, Gamle Fredrikstad 2014",
   "Galleriverkstedet, Oslo 2013",
   "Galleri S9, Oslo 2013",
-  "Fargekolonien, Herføl - Hvaler 2011",
+  "Galleri Fargekolonien, Herføl Hvaler 2011",
   "Galleri Krypten, Kongsvinrger 2010",
   "Galleri Gjøken, Oslo 2010",
+  "Restaurant Villa Sanvigen, Svartskog 2010",
   "Galleri BOA, Oslo 2009",
-  "Dalype Galleri, Oslo 2003, 2005",
+  "Café Pilestedet, Oslo 2008, 2009",
+  "Galleri Fjøset 2008",
+  "Dalype Galleri, Oslo 2003, 2005, 2016",
   "Mira Boat Gallery, Alcânterra PT 2005",
   "Rakkestad Kunstforening, Rakkestad 2004",
   "Husets Galleri, Århus 1978, 1986",
 ];
 export const groupExhibitionsTitle = "Group exhibitions (selected)";
 export const groupExhibitionsText = [
-  "Galleri Farsund, Farsund winter 2023",
-  "Galleri Floren, Skjærhalden Hvaler Summer 2023",
-  "Galleri DC-3, Forneburingen Summer 2023",
-  "Telemark Exhibition 2022",
+  "Elverum Kunstforening 2023",
+  "Galleri Farsund, Farsund 2023",
+  "Galleri Floren, Skjærhalden Hvaler 2023",
+  "Galleri DC-3, Forneburingen 2023",
+  "Romerike Exhibition 2016, 2017, 2021, 2023",
+  "ØKS, Fredrikstad Summer Exhibition 2010 - 2023",
+  "Modum Kunstforening, Christmas Market 2022",
+  "Galleri Åpent, Skjærhalden Hvaler 2022",
+  "Telemark Exhibition 2015, 2022",
   "Galleri Magenta, Gamle Fr stad 2021",
   "Galleri ArtToBe, Tomter Artist of the Month 2021",
+  "Nittedal Kunstforening, Christmas Exhihibition 2021",
+  "H12, Summer/Winter Exhibition, Oslo 2015 - 2021",
   "Ål Kunstforening, Christmas Exhibition 2020",
-  "Rælingen Kunstforening, Winter 2020",
-  "Summer/Winter Exhibition H12, Oslo 2015 - 21",
-  "Galleri Strømsfoss Mølle, Aremark 2018",
+  "Rælingen Kunstforening, Winter Exhibition 2020",
   "Galleri 'Fjøllhalli', Rauland 2018",
-  "Romerike Exhibition 2016, 2017, 21",
-  "Telemark Exhibition 2015",
-  "Miniature Exhibition '2LITTLE' Michigan USA",
+  "Galleri Strømsfoss Mølle, Aremark 2010 - 2018",
+  "Miniature Exhibition '2LITTLE', Michigan, USA 2015",
   "Eidsberg Kunstforening, Mysen 2015",
   "Gallery NOoSphere, (Anniversary) NY, USA 2014",
-  "Summer Exhibition, ØBK, Fredrikstad 2013, 14, 15, 16, 17, 18, 19, 20",
-  "Galleri Fargekolonien, Herføl on Hvaler 2013",
+  "Galleri Fargekolonien, Herføl Hvaler 2013",
   "Galleri Straume, Vinje 2012",
-  "Strømsfoss Mølle, Aremark 2010, 11, 12, 13, 17, 18, 21",
-  "ArtFusion, Galleri Adamstuen, Oslo 2008",
-  "Galleri Gamle Tomb  2005",
-  "Østland Exhibition 2002",
-  "OBK Gallery, Oslo (Christmas exhibitions, etc.)",
-  "'Tendens 1990' Oslo Art Association 1990",
+  "Galleri Adamstuen, ArtFusion, Oslo 2008",
+  "Galleri Gamle Tomb, Råde  2005",
+  "Østland Exhibition, Lillestrøm 2002",
+  "Oslo Art Association (Tendens 1990), Oslo 1990",
   "New York's Atelié, Oslo 1984",
   "Galleri 7, Oslo 1984",
-  "UKS Galleri, Oslo 1982",
-  "Vestfold Exhibition 1981",
+  "Galleri UKS, Oslo 1982",
+  "Vestfold Exhibition, Tønsberg 1981",
 ];
-export const galleryContactTitle = "Gallery contact";
-export const galleryContactText = ["Kunstbutikk ØKS Fredrikstad"];
+export const grantsTitle = "Grants";
+export const grantsText = ["Grant from the Norwegian Arts Council 2018"];
 export const publicPurchasesTitle = "Public purchases";
 export const publicPurchasesText = [
-  "Aremark Municipality 2011",
-  "Trondheim Municipality 2011",
   "Norwegian Library Association 2023",
+  "Trondheim Municipality 2011",
+  "Aremark Municipality 2011",
 ];
 export const consultancyTitle = "Consultancy";
 export const consultancyText = [
-  "Coordinator for Summer Exhibitions at Strømsfoss Mølle Gallery 2010 - 2013, 2015 - 2019",
-  "Regular column in the magazine 'Kunst for alle' 1996 - 1998",
-  "'A 6-Year-Old's Visual World,' OBK Gallery 1996",
-  "About paper surfaces 'Sirkel' 2015",
+  "Galleri Strømsfoss Mølle, Coordinator for Summer Exhibitions 2010 - 2014, 2016 - 2018",
+  "Sirkel Magazine, About paper surfaces 2014",
+  "Galleri OBK, 'A 6-Year-Old's Visual World' 1996",
+  "Kunst for Alle Magazine, Regular column writer 1994 - 1998",
 ];
 export const membershipsTitle = "Memberships";
-export const membershipsText = ["NBK", "ØKS"];
+export const membershipsText = [
+  "Norske Billedkunstnere (NBK)",
+  "Østfold Kunstsenter (ØKS)",
+];
 export const commissionsTitle = "Projects";
 export const commissionsText = [
+  "Decor of a soundbox on a harpsichord, 2015",
   "Illustrations for the Directorate of Public Roads' report 1995",
-  "Decor of a soundbox on a harpsichord",
 ];
 export const positionsTitle = "Positions";
 export const positionsText = [
-  "Control Committee in BOA 2008 - 2011",
-  "Nomination Committee BOA 2011 - 2012",
   "Nomination Committee and Deputy Member in KEM BA 2007 - 2017",
+  "Nomination Committee BOA 2011 - 2012",
+  "Control Committee in BOA 2008 - 2011",
 ];
 
 // boa 2009

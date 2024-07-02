@@ -10,8 +10,8 @@ import {
   soloExhibitionsText,
   groupExhibitionsTitle,
   groupExhibitionsText,
-  galleryContactTitle,
-  galleryContactText,
+  grantsTitle,
+  grantsText,
   publicPurchasesTitle,
   publicPurchasesText,
   consultancyTitle,
@@ -43,8 +43,8 @@ function CV() {
       {groupExhibitionsText.map((item) => (
         <p key={item}>{item}</p>
       ))}
-      <h1>{galleryContactTitle}</h1>
-      {galleryContactText.map((item) => (
+      <h1>{grantsTitle}</h1>
+      {grantsText.map((item) => (
         <p key={item}>{item}</p>
       ))}
       <h1>{publicPurchasesTitle}</h1>

@@ -14,6 +14,7 @@ function Slideshow({ images, item, type }) {
     const prevId = (item.id - 1 + images.length) % images.length;
     navigate(`/${type}/${lowerCaseAndDashes(images[prevId].title)}`);
   };
+  const soldOrGifted = item.sold ? "SOLD" : item.gifted ? "GIFTED" : "";
 
   return (
     <div className="image-container">
@@ -24,7 +25,7 @@ function Slideshow({ images, item, type }) {
       <div className="top-left">{item.title}</div>
       <div className="top-right">{item.size}</div>
       <div className="bottom-left">{item.date}</div>
-      <div className="bottom-right">{item.sold ? "SOLD" : ""}</div>
+      <div className="bottom-right">{soldOrGifted}</div>
       <button className="arrow next" onClick={nextSlide}>
         &#10095;
       </button>

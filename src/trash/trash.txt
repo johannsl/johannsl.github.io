@@ -196,3 +196,46 @@ img {
 //   imageUrl: blaavinge,
 //   include: false,
 // },
+
+
+          {/* {paintings.map((item) => {
+            const path = `/${pSubmenu[0]}/${lowerCaseAndDashes(item.title)}`;
+            const slideshow = (
+              <Slideshow images={paintings} item={item} type={pSubmenu[0]} />
+            );
+            return <Route key={item.id} path={path} element={slideshow} />;
+          })}
+
+          {linocuts.map((item) => {
+            const path = `/${pSubmenu[1]}/${lowerCaseAndDashes(item.title)}`;
+            const slideshow = (
+              <Slideshow images={smallerWorks} item={item} type={pSubmenu[1]} />
+            );
+            return <Route key={item.id} path={path} element={slideshow} />;
+          })}
+
+          {smallerWorks.map((item) => {
+            const path = `/${pSubmenu[1]}/${lowerCaseAndDashes(item.title)}`;
+            const slideshow = (
+              <Slideshow images={smallerWorks} item={item} type={pSubmenu[1]} />
+            );
+            return <Route key={item.id} path={path} element={slideshow} />;
+          })}
+
+          {smallerWorks.map((item) => {
+            const path = `/${pSubmenu[1]}/${lowerCaseAndDashes(item.title)}`;
+            const slideshow = (
+              <Slideshow images={smallerWorks} item={item} type={pSubmenu[1]} />
+            );
+            return <Route key={item.id} path={path} element={slideshow} />;
+          })} */}
+
+
+@media (max-width: 992px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card p {
+    font-size: 16px;
+  }
+}
