@@ -34,9 +34,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path={`/${navbarItems[1]}`} element={<Paintings />} />
-          <Route exact path={`/${navbarItems[3]}`} element={<Contact />} />
 
+          <Route exact path={`/${pSubmenu[0]}`} element={<Paintings />} />
           <Route exact path={`/${pSubmenu[1]}`} element={<Linocuts />} />
           <Route exact path={`/${pSubmenu[2]}`} element={<SmallerWorks />} />
           <Route exact path={`/${pSubmenu[3]}`} element={<Patterns />} />
@@ -45,16 +44,21 @@ function App() {
           <Route exact path={`/${aboutSubMenu[1]}`} element={<CV />} />
           <Route exact path={`/${aboutSubMenu[2]}`} element={<Press />} />
 
-          {[paintings, linocuts, smallerWorks, patterns].map((data, index) => {
-            return data.map((item) => {
-              const type = pSubmenu[index];
-              const path = `/${type}/${lowerCaseAndDashes(item.title)}`;
-              const slideshow = (
-                <Slideshow images={data} item={item} type={type} />
-              );
-              return <Route key={item.id} path={path} element={slideshow} />;
-            });
-          })}
+          <Route exact path={`/${navbarItems[3]}`} element={<Contact />} />
+
+          {[paintings, linocuts, smallerWorks, patterns].map(
+            (imageList, listIndex) => {
+              return imageList.map((image, imageIndex) => {
+                const item = { id: imageIndex, ...image };
+                const type = pSubmenu[listIndex];
+                const path = `/${type}/${lowerCaseAndDashes(image.title)}`;
+                const slideshow = (
+                  <Slideshow images={imageList} item={item} type={type} />
+                );
+                return <Route key={image.id} path={path} element={slideshow} />;
+              });
+            }
+          )}
         </Routes>
       </div>
       <Footer />

@@ -1,127 +1,150 @@
-import theTow from "./linocuts/the-tow.jpg";
-import vanity from "./linocuts/vanity.jpg";
-import ohHolyBird from "./linocuts/oh-holy-bird.jpg";
+// import littleBirdInTheAgeOfCorona from "./linocuts/little-bird-in-the-age-of-corona.jpg";
 import artemis from "./linocuts/artemis.jpg";
-import beyondTime from "./linocuts/beyond-time.jpg";
 import beyondTimeRed from "./linocuts/beyond-time-red.jpg";
+import beyondTime from "./linocuts/beyond-time.jpg";
+import catsNDogs from "./linocuts/cats-n-dogs.jpg";
+import elements from "./linocuts/elements.jpg";
+import fairytale from "./linocuts/fairytale.jpg";
+import girlpower from "./linocuts/girlpower.jpg";
 import gooMoon from "./linocuts/goo-moon.jpg";
 import iWillRemain from "./linocuts/i-will-remain.jpg";
-import littleBirdInTheAgeOfCorona from "./linocuts/little-bird-in-the-age-of-corona.jpg";
-import catsNDogs from "./linocuts/cats-n-dogs.jpg";
-import girlpower from "./linocuts/girlpower.jpg";
 import mice from "./linocuts/mice.jpg";
+import ohHolyBird from "./linocuts/oh-holy-bird.jpg";
+import theThreeBillyGoatsGruffAndOlleBolle from "./linocuts/the-three-billy-goats-gruff-and-olle-bolle.jpg";
+import theTow from "./linocuts/the-tow.jpg";
+import vanity from "./linocuts/vanity.jpg";
+import wrongPlanet from "./linocuts/wrong-planet-lino.jpg";
 
 export const linocuts = [
   {
-    id: 0,
     title: "The Tow",
     date: "2016",
     size: "20x30",
-    imageUrlSmall: theTow,
     imageUrl: theTow,
+    imageUrlSmall: theTow,
     prints: 20,
   },
   {
-    id: 1,
     title: "Vanity",
     date: "2016",
     size: "20x30",
-    imageUrlSmall: vanity,
     imageUrl: vanity,
+    imageUrlSmall: vanity,
     prints: 20,
   },
   {
-    id: 3,
     title: "Oh Holy Bird",
     date: "2016",
     size: "20x30",
-    imageUrlSmall: ohHolyBird,
     imageUrl: ohHolyBird,
+    imageUrlSmall: ohHolyBird,
     prints: 20,
   },
   {
-    id: 4,
     title: "Artemis",
     date: "2020",
     size: "30x40",
-    imageUrlSmall: artemis,
     imageUrl: artemis,
+    imageUrlSmall: artemis,
     prints: 25,
   },
   {
-    id: 5,
     title: "Beyond Time",
     date: "2020",
     size: "30x40",
-    imageUrlSmall: beyondTime,
     imageUrl: beyondTime,
+    imageUrlSmall: beyondTime,
     prints: 25,
   },
   {
-    id: 6,
     title: "Beyond Time Red",
     date: "2020",
     size: "30x40",
-    imageUrlSmall: beyondTimeRed,
     imageUrl: beyondTimeRed,
+    imageUrlSmall: beyondTimeRed,
     prints: 20,
   },
   {
-    id: 7,
     title: "Goo Moon",
     date: "2020",
     size: "30x40",
-    imageUrlSmall: gooMoon,
     imageUrl: gooMoon,
+    imageUrlSmall: gooMoon,
     prints: 25,
   },
   {
-    id: 8,
     title: "I Will Remain...",
     date: "2020",
     size: "30x40",
-    imageUrlSmall: iWillRemain,
     imageUrl: iWillRemain,
+    imageUrlSmall: iWillRemain,
     prints: 25,
   },
   {
-    id: 9,
-    title: "Little Bird in the Age of Corona",
-    date: "2020",
+    title: "Elements",
+    date: "2025",
     size: "30x40",
-    imageUrlSmall: littleBirdInTheAgeOfCorona,
-    imageUrl: littleBirdInTheAgeOfCorona,
+    imageUrl: elements,
+    imageUrlSmall: elements,
     prints: 25,
     handcolored: true,
   },
   {
-    id: 10,
     title: "Cats'n'Dogs",
     date: "2022",
     size: "20x27",
-    imageUrlSmall: catsNDogs,
     imageUrl: catsNDogs,
+    imageUrlSmall: catsNDogs,
     prints: 20,
     handcolored: true,
   },
   {
-    id: 11,
     title: "Girlpower",
     date: "2022",
     size: "20x27",
-    imageUrlSmall: girlpower,
     imageUrl: girlpower,
+    imageUrlSmall: girlpower,
     prints: 20,
     handcolored: true,
   },
   {
-    id: 12,
     title: "Mice",
     date: "2022",
     size: "20x27",
-    imageUrlSmall: mice,
     imageUrl: mice,
+    imageUrlSmall: mice,
     prints: 20,
     handcolored: true,
   },
+  {
+    title: "Fairytale",
+    date: "2018",
+    size: "40x30",
+    imageUrl: fairytale,
+    imageUrlSmall: fairytale,
+  },
+  {
+    title: "Wrong Planet",
+    date: "2025",
+    size: "40x30",
+    imageUrl: wrongPlanet,
+    imageUrlSmall: wrongPlanet,
+  },
+  {
+    title: "The Three Billy Goats Gruff and Olle Bolle",
+    date: "2018",
+    size: "40x30",
+    imageUrl: theThreeBillyGoatsGruffAndOlleBolle,
+    imageUrlSmall: theThreeBillyGoatsGruffAndOlleBolle,
+  },
 ];
+
+//   {
+//   title: "Little Bird in the Age of Corona",
+//   date: "2020",
+//   size: "30x40",
+//   imageUrl: littleBirdInTheAgeOfCorona,
+//   imageUrlSmall: littleBirdInTheAgeOfCorona,
+//   prints: 25,
+//   handcolored: true,
+// },

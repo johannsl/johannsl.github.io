@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import "./Slideshow.css";
@@ -15,6 +15,23 @@ function Slideshow({ images, item, type }) {
     navigate(`/${type}/${lowerCaseAndDashes(images[prevId].title)}`);
   };
   const soldOrGifted = item.sold ? "SOLD" : item.gifted ? "GIFTED" : "";
+
+  const handleKeyDown = (event) => {
+    if (event.key === "ArrowRight") {
+      nextSlide();
+      event.preventDefault();
+    } else if (event.key === "ArrowLeft") {
+      prevSlide();
+      event.preventDefault();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  });
 
   return (
     <div className="image-container">

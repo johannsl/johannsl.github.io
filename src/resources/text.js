@@ -1,4 +1,4 @@
-export const navbarItems = ["home", "paintings", "about", "contact"];
+export const navbarItems = ["home", "works", "about", "contact"];
 export const paintingsSubMenu = [
   "paintings",
   "linocuts",
@@ -63,6 +63,9 @@ export const artJobsText = [
 ];
 export const soloExhibitionsTitle = "Solo exhibitions";
 export const soloExhibitionsText = [
+  "Galleri S9, Oslo 2013, 2025",
+  "Galleri Verftsporten, Horten 2025",
+  "Galleri Gallera, Hvaler 2024, 2025",
   "Ski Kunstforening 2024",
   "Galleri Midtstuen, Rakkestad Kunstforening 2023",
   "Galleri Syningen, Ål 2023",
@@ -82,7 +85,6 @@ export const soloExhibitionsText = [
   "Galleri Emilie, Skjærhalden Hvaler 2015",
   "Galleri Clara, Gamle Fredrikstad 2014",
   "Galleriverkstedet, Oslo 2013",
-  "Galleri S9, Oslo 2013",
   "Galleri Fargekolonien, Herføl Hvaler 2011",
   "Galleri Krypten, Kongsvinrger 2010",
   "Galleri Gjøken, Oslo 2010",
@@ -97,12 +99,12 @@ export const soloExhibitionsText = [
 ];
 export const groupExhibitionsTitle = "Group exhibitions (selected)";
 export const groupExhibitionsText = [
+  "ØKS, Fredrikstad Summer Exhibition 2010 - 2025",
   "Elverum Kunstforening 2023",
   "Galleri Farsund, Farsund 2023",
   "Galleri Floren, Skjærhalden Hvaler 2023",
   "Galleri DC-3, Forneburingen 2023",
   "Romerike Exhibition 2016, 2017, 2021, 2023",
-  "ØKS, Fredrikstad Summer Exhibition 2010 - 2023",
   "Modum Kunstforening, Christmas Market 2022",
   "Galleri Åpent, Skjærhalden Hvaler 2022",
   "Telemark Exhibition 2015, 2022",

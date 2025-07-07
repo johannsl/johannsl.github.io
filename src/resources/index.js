@@ -5,11 +5,11 @@ import { smallerWorks } from "./smallerWorks";
 import { aboutSubMenu, navbarItems, paintingsSubMenu } from "./text";
 
 export {
+  aboutSubMenu,
   linocuts,
+  navbarItems,
   paintings,
+  paintingsSubMenu,
   patterns,
   smallerWorks,
-  aboutSubMenu,
-  navbarItems,
-  paintingsSubMenu,
 };
