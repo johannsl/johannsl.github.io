@@ -16,6 +16,7 @@ import emergingEnergySmall from "./paintings-small/emerging-energy-small.jpg";
 import guardianDog1Small from "./paintings-small/guardian-dog-1-small.jpg";
 import guardianDog2Small from "./paintings-small/guardian-dog-2-small.jpg";
 import onASlowBoatToChinaSmall from "./paintings-small/on-a-slowboat-to-china-small.jpg";
+import quackQuackSmall from "./paintings-small/quack-quack-small.jpg";
 import silvermoonSmall from "./paintings-small/silvermoon-small.jpg";
 import storkAndFlowersSmall from "./paintings-small/stork-and-flowers-small.jpg";
 import tulipsAndColoursSmall from "./paintings-small/tulips-and-colours-small.jpg";
@@ -42,7 +43,7 @@ export const paintings = [
     date: "2025",
     size: "60x81",
     imageUrl: quackQuack,
-    imageUrlSmall: quackQuack,
+    imageUrlSmall: quackQuackSmall,
   },
   {
     title: "On a Slowboat to China",
