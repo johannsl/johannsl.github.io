@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useSwipeable } from "react-swipeable";
 
-import "./Slideshow.css";
 import { lowerCaseAndDashes } from "../functions/strings";
+import "./Slideshow.css";
 
 function Slideshow({ images, item, type }) {
   const navigate = useNavigate();
@@ -14,8 +15,8 @@ function Slideshow({ images, item, type }) {
     const prevId = (item.id - 1 + images.length) % images.length;
     navigate(`/${type}/${lowerCaseAndDashes(images[prevId].title)}`);
   };
-  const soldOrGifted = item.sold ? "SOLD" : item.gifted ? "GIFTED" : "";
 
+  // keyboard navigation
   const handleKeyDown = (event) => {
     if (event.key === "ArrowRight") {
       nextSlide();
@@ -25,7 +26,6 @@ function Slideshow({ images, item, type }) {
       event.preventDefault();
     }
   };
-
   useEffect(() => {
     window.addEventListener("keydown", handleKeyDown);
     return () => {
@@ -33,8 +33,18 @@ function Slideshow({ images, item, type }) {
     };
   });
 
+  // app swipe navigation
+  const handlers = useSwipeable({
+    onSwipedLeft: () => nextSlide(),
+    onSwipedRight: () => prevSlide(),
+    swipeDuration: 500,
+    preventScrollOnSwipe: true,
+    trackMouse: true,
+  });
+
+  const soldOrGifted = item.sold ? "SOLD" : item.gifted ? "GIFTED" : "";
   return (
-    <div className="image-container">
+    <div className="image-container" {...handlers}>
       <button className="arrow prev" onClick={prevSlide}>
         &#10094;
       </button>
