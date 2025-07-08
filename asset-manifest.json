@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e7981c00.css",
-    "main.js": "/static/js/main.54413e02.js",
+    "main.js": "/static/js/main.b640d2d3.js",
     "static/media/periwinkle-blue.jpg": "/static/media/periwinkle-blue.49fababdc3d60a92f4a9.jpg",
     "static/media/red-star.jpg": "/static/media/red-star.3a2630195046180b5991.jpg",
     "static/media/sometimes-i-feel-low.jpg": "/static/media/sometimes-i-feel-low.4337127a9c4d16278f41.jpg",
@@ -52,6 +52,7 @@
     "static/media/on-a-slowboat-to-china.jpg": "/static/media/on-a-slowboat-to-china.2b2ffcb505478a1793d1.jpg",
     "static/media/in-to-the-red.jpg": "/static/media/in-to-the-red.8ae2c9d95f4f173ff8d9.jpg",
     "static/media/i-will-remain.jpg": "/static/media/i-will-remain.5dfd00453977d89373bf.jpg",
+    "static/media/quack-quack-small.jpg": "/static/media/quack-quack-small.61103683a6d9c653bab8.jpg",
     "static/media/fatal-choice-small.jpg": "/static/media/fatal-choice-small.0788c3feb5a985f33025.jpg",
     "static/media/burlesque-small.jpg": "/static/media/burlesque-small.d73c38094d3f757a445f.jpg",
     "static/media/morning-mist.jpg": "/static/media/morning-mist.bfa47f2cf13797b46174.jpg",
@@ -114,10 +115,10 @@
     "static/media/home-image.jpeg": "/static/media/home-image.25525f70aadadd2eb7ef.jpeg",
     "index.html": "/index.html",
     "main.e7981c00.css.map": "/static/css/main.e7981c00.css.map",
-    "main.54413e02.js.map": "/static/js/main.54413e02.js.map"
+    "main.b640d2d3.js.map": "/static/js/main.b640d2d3.js.map"
   },
   "entrypoints": [
     "static/css/main.e7981c00.css",
-    "static/js/main.54413e02.js"
+    "static/js/main.b640d2d3.js"
   ]
 }
