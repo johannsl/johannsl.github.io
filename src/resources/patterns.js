@@ -1,11 +1,13 @@
 // import tapestrySmall from "./patterns-small/tapestry-small.jpg";
-import burlesqueSmall from "./patterns-small/burlesque-small.jpg";
+// import polygon from "./patterns/polygon.jpg";
+// import polygonSmall from "./patterns-small/polygon-small.jpg";
+// import burlesque from "./patterns/burlesque.jpg";
+// import burlesqueSmall from "./patterns-small/burlesque-small.jpg";
 import fatalChoiceSmall from "./patterns-small/fatal-choice-small.jpg";
 import feedTheBirdsSmall from "./patterns-small/feed-the-birds-small.jpg";
 import grandmasHouseSmall from "./patterns-small/grandmas-house-small.jpg";
 import headsSmall from "./patterns-small/heads-small.jpg";
 import periwinkleBlueSmall from "./patterns-small/periwinkle-blue-small.jpg";
-import polygonSmall from "./patterns-small/polygon-small.jpg";
 import redStarSmall from "./patterns-small/red-star-small.jpg";
 import sometimesIfeelLowSmall from "./patterns-small/sometimes-i-feel-low-small.jpg";
 import soundOfMuSmall from "./patterns-small/sound-of-mu-small.jpg";
@@ -13,13 +15,11 @@ import strawberryFieldsSmall from "./patterns-small/strawberry-fields-small.jpg"
 import theValleyOfOblivionSmall from "./patterns-small/the-valley-of-oblivion-small.jpg";
 import underTheSurfaceSmall from "./patterns-small/under-the-surface-small.jpg";
 import whiteSatinSmall from "./patterns-small/white-satin-small.jpg";
-import burlesque from "./patterns/burlesque.jpg";
 import fatalChoice from "./patterns/fatal-choice.jpg";
 import feedTheBirds from "./patterns/feed-the-birds.jpg";
 import grandmasHouse from "./patterns/grandmas-house.jpg";
 import heads from "./patterns/heads.jpg";
 import periwinkleBlue from "./patterns/periwinkle-blue.jpg";
-import polygon from "./patterns/polygon.jpg";
 import redStar from "./patterns/red-star.jpg";
 import sometimesIfeelLow from "./patterns/sometimes-i-feel-low.jpg";
 import soundOfMu from "./patterns/sound-of-mu.jpg";
@@ -101,20 +101,20 @@ export const patterns = [
     imageUrl: periwinkleBlue,
     imageUrlSmall: periwinkleBlueSmall,
   },
-  {
-    title: "Burlesque",
-    date: "2016",
-    size: "130x105",
-    imageUrl: burlesque,
-    imageUrlSmall: burlesqueSmall,
-  },
-  {
-    title: "Polygon",
-    date: "2016",
-    size: "130x105",
-    imageUrl: polygon,
-    imageUrlSmall: polygonSmall,
-  },
+  // {
+  //   title: "Burlesque",
+  //   date: "2016",
+  //   size: "130x105",
+  //   imageUrl: burlesque,
+  //   imageUrlSmall: burlesqueSmall,
+  // },
+  // {
+  //   title: "Polygon",
+  //   date: "2016",
+  //   size: "130x105",
+  //   imageUrl: polygon,
+  //   imageUrlSmall: polygonSmall,
+  // },
   {
     title: "Fatal Choice",
     date: "2016",

@@ -71,6 +71,7 @@ export const smallerWorks = [
     size: "20x30",
     imageUrl: stonehouse,
     imageUrlSmall: stonehouseSmall,
+    sold: true,
   },
   {
     title: "Lilac",
@@ -193,6 +194,7 @@ export const smallerWorks = [
     size: "30x40",
     imageUrl: inTheKingdomOfColor6,
     imageUrlSmall: inTheKingdomOfColor6,
+    sold: true,
   },
   {
     title: "In the Kingdom of Color VII",

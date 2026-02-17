@@ -9,6 +9,7 @@
 // import wrongPlanetSmall from "./paintings-small/wrong-planet-small.jpg";
 // import theEnergyOfSpringSmall from "./paintings-small/the-energy-of-spring-small.jpg";
 // import theEnergyOfSpring from "./paintings/the-energy-of-spring.jpg";
+// import silvermoonSmall from "./paintings-small/silvermoon-small.jpg";
 import afternoonSmall from "./paintings-small/afternoon-small.jpg";
 import birdcageAndPlumsSmall from "./paintings-small/birdcage-and-plums-small.jpg";
 import dreamSmall from "./paintings-small/dream-small.jpg";
@@ -17,7 +18,6 @@ import guardianDog1Small from "./paintings-small/guardian-dog-1-small.jpg";
 import guardianDog2Small from "./paintings-small/guardian-dog-2-small.jpg";
 import onASlowBoatToChinaSmall from "./paintings-small/on-a-slowboat-to-china-small.jpg";
 import quackQuackSmall from "./paintings-small/quack-quack-small.jpg";
-import silvermoonSmall from "./paintings-small/silvermoon-small.jpg";
 import storkAndFlowersSmall from "./paintings-small/stork-and-flowers-small.jpg";
 import tulipsAndColoursSmall from "./paintings-small/tulips-and-colours-small.jpg";
 import underTheJasmineSmall from "./paintings-small/under-the-jasmine-small.jpg";
@@ -72,6 +72,7 @@ export const paintings = [
     size: "63x63",
     imageUrl: birdcageAndPlums,
     imageUrlSmall: birdcageAndPlumsSmall,
+    sold: true,
   },
   {
     title: "Tulips and Colours",
@@ -107,13 +108,14 @@ export const paintings = [
     size: "81x65",
     imageUrl: wrongPlanet,
     imageUrlSmall: wrongPlanet,
+    sold: true,
   },
   {
     title: "Silvermoon",
     date: "2021",
     size: "130x105",
     imageUrl: silvermoon,
-    imageUrlSmall: silvermoonSmall,
+    imageUrlSmall: silvermoon,
   },
   {
     title: "Afternoon",
